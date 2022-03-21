@@ -1,10 +1,11 @@
 apiVersion: v1
 kind: ResourceQuota
+namespace: argo
 metadata:
   name: mem-cpu-argo
 spec:
   hard:
-    requests.cpu: "2"
-    requests.memory: 16Gi
-    limits.cpu: "3"
-    limits.memory: 20Gi
+    requests.cpu: "2000m"
+    requests.memory: "16Gi"
+    limits.cpu: "3000m"
+    limits.memory: "20Gi"

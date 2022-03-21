@@ -5,6 +5,12 @@ metadata:
   annotations:
     workflows.argoproj.io/description: |
        This resource quota prevents using limited cpu and ram in a namespace.
+spec:
+  hard:
+    requests.cpu: "1000m"
+    requests.memory: "8Gi"
+    limits.cpu: "2000m"
+    limits.memory: "10Gi"
 
     
 

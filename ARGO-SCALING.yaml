@@ -1,3 +1,6 @@
 1. try resource quota.
 2. increase workflow controller yaml; argo-server yaml
 https://argoproj.github.io/argo-workflows/cost-optimisation/#configure-executor-resource-requests
+
+3. vertical scaling:
+https://argoproj.github.io/argo-workflows/scaling/

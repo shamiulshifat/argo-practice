@@ -4,10 +4,11 @@ metadata:
   name: mem-cpu-argo
   annotations:
     workflows.argoproj.io/description: |
-       This resource quota prevents using limited cpu and ram in a namespace.
+       This resource quota prevents using limited cpu and ram in a namespace edited.
 spec:
   hard:
-    requests.cpu/workflows.argoproj.io: "2000m"
-    requests.memory/workflows.argoproj.io: "2Gi"
-    limits.cpu/workflows.argoproj.io: "3000m"
-    limits.memory/workflows.argoproj.io: "3Gi"
+    count/workflows.argoproj.io: "100"
+    requests.cpu: "2"
+    requests.memory: "2Gi"
+    limits.cpu: "3"
+    limits.memory: "3Gi"

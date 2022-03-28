@@ -8,7 +8,7 @@ metadata:
 spec:
   hard:
     count/workflows.argoproj.io: "100"
-    requests.cpu/workflows.argoproj.io: "2"
-    requests.memory/workflows.argoproj.io: "2Gi"
-    limits.cpu/workflows.argoproj.io: "3"
-    limits.memory/workflows.argoproj.io: "3Gi"
+    requests.cpu: "2"
+    requests.memory: "2Gi"
+    limits.cpu: "3"
+    limits.memory: "3Gi"

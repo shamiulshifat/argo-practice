@@ -7,6 +7,7 @@ metadata:
        This resource quota prevents using limited cpu and ram in a namespace edited.
 spec:
   hard:
+    count/workflows.argoproj.io: "100"
     workflows.argoproj.io/requests.cpu: 2
     workflows.argoproj.io/requests.memory: "2Gi"
     workflows.argoproj.io/limits.cpu: 3

@@ -10,5 +10,5 @@ spec:
     count/workflows.argoproj.io: "100"
     requests.cpu: "2"
     requests.memory: "4Gi"
-    limits.cpu: "3"
-    limits.memory: "8Gi"
+    limits.cpu: "6"
+    limits.memory: "12Gi"
